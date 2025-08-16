@@ -1,0 +1,43 @@
+rhs = body1acc and body2acc * j1 and body2 j2 + c1 and c2
+conelimit lo = 0 some lo = friction
+rowsptr = lm
+
+J has a collumn for every partial derivitive x,z, in no order constraint does that
+	if ( !lcp->Solve( jmk, lm, rhs[float arr all constraints (J collumns * acc)], lo, hi, boxIndex ) ) {
+
+
+slider
+	J1.Set(	mat3_zero, mat3_identity,
+			idMat3( vecX, vecY, vec3_origin ), mat3_zero );
+	J1.SetSize( 5, 6 );
+
+rhs is scaler to satisfy costraint partial derivitive
+Jtranspose lm
+
+iterating is the minimum of the sum of scalers
+and solving 1 not breaking another
+
+for every var{for every var{ }}f
+float jmk[nvariables][nvariables]
+
+
+after primary constraints turn totalforce into acceleration again
+
+it solves every primary constraint in the tree for every collumn of J of every aux
+
+primaryconstraint->J = j2
+body->j = j1 transpose
+
+conelimit frame restraint
+contact constraints are collisions of every frame j2 usually 0
+
+
+the force this var of auxconstraint has on all primaries
+
+for nvaraibles
+ every var up to this one for this nvars*nvars array
+	jmk_thisvar[responseindex] = 
+		var dot tree_primary_var_resolve_force
+
+
+jmk[var][responses...nvars] in order
